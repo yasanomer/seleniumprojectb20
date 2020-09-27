@@ -13,6 +13,8 @@ public class PracticeReverse {
             result += str.charAt(i);
         }
         return result;
+//sdflkgjsdfhlghsdflj
+
     }
 // print
 }
