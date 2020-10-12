@@ -70,7 +70,7 @@ public class WindowHandlingPractices {
     @Test
     public void p6_handling_more_than_two_windows(){
         driver.get("https://amazon.com");
-//bbbn
+
         //THIS LINE IS BASICALLY : We are downcasting our driver type to JavaScriptExecutor
         // THe only thing this line is doing is USING JS EXECUTOR -> opening new tabs with given links
         ((JavascriptExecutor) driver).executeScript("window.open('http://google.com','_blank');");
